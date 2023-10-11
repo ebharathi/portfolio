@@ -8,6 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      width:{
+        '400':'400px',
+        '300':'300px',
+        '200':'200px',
+        '100':'100px'
+      },
+      height:{
+        '400':'400px',
+        '300':'300px',
+        '200':'200px'
+      },
       backgroundColor:{
         '100':'100px'
       },
