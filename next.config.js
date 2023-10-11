@@ -3,4 +3,15 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  nextConfig,
+  Images:{
+    remotePatterns:[
+      {
+        protocol:'https',
+        hostname:'res.cloudinary.com'
+      }
+    ]
+  }
+
+}
