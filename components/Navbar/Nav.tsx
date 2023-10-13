@@ -1,14 +1,19 @@
 import TopNav from "./TopNav";
+import { Caveat } from 'next/font/google'
+const caveat =Caveat({
+   subsets: ['latin'],
+   weight: '600'
+ })
 const Nav=()=>{
     return (
         <nav className="py-4">
            <div className="flex mx-8">
                  <div className="flex-[5] flex space-x-2">
                        <div className="bg-yellow-400 py-1 mb-1 text-yellow-400 text-[23px]" style={{borderRadius:'50%',fontFamily:"'Lato',sans-seriff"}}>sssds</div>
-                       <div className="pt-2 text-[17px]">
+                       <div className={`${caveat.className} pt-2 text-[20px]`}>
                               Elayabharathi M V
                        </div>
-                       <div className="pt-4 text-[10px]">
+                       <div className={`${caveat.className} pt-4 text-[13px]`}>
                           Engineering student
                        </div>
                  </div>
