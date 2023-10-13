@@ -17,7 +17,8 @@ const config: Config = {
       height:{
         '400':'400px',
         '300':'300px',
-        '200':'200px'
+        '200':'200px',
+        '100':'100px'
       },
       backgroundColor:{
         '100':'100px'
