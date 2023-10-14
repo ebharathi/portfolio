@@ -7,7 +7,7 @@ const Main=()=>{
                 <div className="flex-[2]"></div>
                 <div className="flex-[3] mt-20 flex flex-row mx-2">
                     <div className="pt-20 flex-1 flex justify-center items-center">
-                            <img style={{objectFit:'cover'}} className="rounded-full w-300 h-300 lg:w-400 lg:h-400" src="https://res.cloudinary.com/dommky0uu/image/upload/v1697030549/1676809451987_yfc1kb.jpg"/>
+                            <img style={{objectFit:'cover'}} className="cursor-pointer rounded-full w-300 h-300 lg:w-400 lg:h-400" src="https://res.cloudinary.com/dommky0uu/image/upload/v1697030549/1676809451987_yfc1kb.jpg"/>
                     </div>
                     <div className="flex-1">
                           <Content/>
