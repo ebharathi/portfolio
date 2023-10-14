@@ -11,7 +11,9 @@ const Nav=()=>{
                  <div className="flex-[5] flex space-x-2">
                        <div className="bg-yellow-400 py-1 mb-1 text-yellow-400 text-[30px]" style={{borderRadius:'50%',fontFamily:"'Lato',sans-seriff"}}>sssds</div>
                        <div className={`${caveat.className} pt-2 text-[27px]`}>
+                       <a href='/'>
                               Elayabharathi M V
+                        </a>
                        </div>
                        <div className={`${caveat.className} pt-4 text-[18px]`}>
                           Engineering student
