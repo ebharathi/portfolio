@@ -1,7 +1,7 @@
-import { Kalam
+import { Shadows_Into_Light
 } from 'next/font/google'
 
-const sil = Kalam({
+const sil = Shadows_Into_Light({
   subsets: ['latin'],
   weight: '400'
 })
