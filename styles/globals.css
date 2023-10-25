@@ -12,6 +12,13 @@
     color: #cfcfcf;
 
 }
+.span:hover{
+cursor: pointer;
+font-size: 60px;
+}
+.span-s{
+    width: 7px;
+}
 #home{
     min-height: 1000px;
 }
