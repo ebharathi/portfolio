@@ -1,7 +1,39 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-body{
-  background-color: #f3f2f2;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.top{
+    background: url(https://res.cloudinary.com/dommky0uu/image/upload/v1698255226/solid-navy-blue-concrete-textured-wall_ptutce.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #cfcfcf;
+
 }
+#home{
+    min-height: 1000px;
+}
+#about-img{
+    min-height: 1500px;
+}
+.bottom-border{
+    border-bottom:4px solid #de5e60 ;
+}
+.arrow {
+    box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+  }
+  
+  .arrow:hover {
+    border-color: #de5e60;
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+  }

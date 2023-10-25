@@ -18,12 +18,14 @@ const config: Config = {
         '400':'400px',
         '300':'300px',
         '200':'200px',
-        '100':'100px'
+        '100':'100px',
+        '85':'75px'
       },
-      backgroundColor:{
-        '100':'100px'
+      borderWidth:{
+        '1':'1px'
       },
       borderRadius:{
+         
          'full':'50%'
       },
       backgroundImage: {
