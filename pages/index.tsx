@@ -7,6 +7,7 @@ import Nav from '@/components/Nav'
 import HomeComponent from '@/components/Home'
 import About from '@/components/About'
 import { useState } from 'react'
+import Projects from '@/components/Projects'
 export default function Home() {
    const [bg,setBG]=useState(false);
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <HomeComponent/>
        </div>
        <About/>
+       <Projects/>
      </>
   )
 }
