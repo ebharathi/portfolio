@@ -23,7 +23,7 @@ font-size: 60px;
     min-height: 1000px;
 }
 #about-img{
-    min-height: 900px;
+    min-height: 800px;
 }
 .bottom-border{
     border-bottom:4px solid #de5e60 ;
@@ -44,3 +44,91 @@ font-size: 60px;
     border-bottom-width: 4px;
     border-right-width: 4px;
   }
+
+  #contact {
+    padding-top: 45px;
+    padding-bottom: 0;
+    padding: 90px 0;
+
+}
+#contact ::selection {
+    color:#7F8289;
+    border: 1px solid #26292E;
+
+}
+#contact ::-moz-selection { /* For Firefox */
+    color:#7F8289;
+    border: 1px solid #26292E;
+
+}
+#contact #contact-form {
+    max-width:650px;
+    margin:70px auto;
+    float:none;
+}
+#contact #contact-form input[type="text"], #contact #contact-form  textarea {
+    color:#7F8289;
+    font-size: 12px;
+    padding: 15px 0;
+    width: 100%;
+    padding-left:10px;
+    background:#26292E;
+    margin-bottom:20px;
+    border:0;
+    border:1px solid #26292E;
+    position:relative;
+}
+#contact #contact-form input[type="submit"] {
+    float:none;
+    margin:20px auto;
+}
+#contact .error_message {
+    color:red;
+}
+#contact-form {
+    text-align:center!important;
+    max-width:600px;
+    float:left;
+}
+#contact-form input[type="text"], #contact-form  textarea {
+    color: #7F8289;
+    font-size: 12px;
+    padding: 15px 0;
+    width: 100%;
+    padding-left:10px;
+    background:none;
+    background:rgba(255,255,255,0.2);
+    margin-bottom:20px;
+    position:relative;
+    border:1px solid #26292E
+}
+#contact-form input[type=text]:focus, #contact-form textarea:focus, input[type=email]:focus {
+    color:#fff;
+    outline:none;
+
+}
+#contact-form textarea {
+    height:170px;
+    resize:none;
+}
+.address
+{
+    display: block;
+    color: #7F8289;
+}
+#contact-form input[type="submit"] , .controls button	{
+    background:none;
+    border:none;
+    border-radius: 0;
+    padding:14px 20px;
+    line-height:14px;
+    cursor:pointer;
+    font-size:13px;
+    color:#fff;
+    -webkit-appearance: none;
+    float:right;
+    background:#26292E;
+}
+#contact-form input[type="submit"]:hover , .controls button {
+    background:#DE5E60;
+}
