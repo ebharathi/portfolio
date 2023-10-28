@@ -19,7 +19,7 @@ export default function Home() {
         <HomeComponent/>
        </div>
        <About/>
-       {/* <Projects/> */}
+       <Projects/>
        <Contact/>
        <Footer/>
      </>
