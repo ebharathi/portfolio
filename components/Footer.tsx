@@ -6,7 +6,7 @@ const pop=Poppins({
   })
 const Footer=()=>{
     return (
-            <footer id="footer" className={`${pop.className}`}>
+            <footer id="footer" className={`${pop.className} px-5 md:px-20 lg:px-60`}>
                 <div className="footer-top">
                     <div className="text-center flex justify-center items-center">
                         <div className="social-icons">

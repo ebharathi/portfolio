@@ -1,8 +1,8 @@
 const Contact=()=>{
     return (
-        <div  className="bg-[#2F3238] px-60">
+        <div  className="bg-[#2F3238] px-5 md:px-20 lg:px-60">
              <div className="text-center pt-32">
-                <span className="text-[30px] font-bold text-white bottom-border">Get in Touch</span>
+                <span className="text-[30px] font-bold text-white bottom-border hover:px-3">Get in Touch</span>
             </div>
             <div id="contact" className="text-center">
     <div className="container">

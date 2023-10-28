@@ -5,12 +5,18 @@ const pop=Poppins({
     weight: '100'
   })
 const About=()=>{
+    const scollDown=()=>{
+        window.scrollTo({
+            top:window.scrollY + 1200,
+            behavior:'smooth'
+        })
+    }
     return(
-        <div id="about-img" className={`bg-[#2F3238] px-60 ${pop.className}`}>
+        <div id="about-img" className={`bg-[#2F3238] px-5 md:px-20 lg:px-60 ${pop.className}`}>
             <div className="text-center pt-32">
-                <span className="text-[30px] font-bold text-white bottom-border">ABOUT Me</span>
+                <span className="text-[30px] font-bold text-white bottom-border hover:px-3">ABOUT Me</span>
             </div>
-            <div className="flex px-36 pt-10">
+            <div className="flex flex-col-reverse md:flex-row  px-5 md:px-20 lg:px-36 pt-10">
                 <div className="flex-1 flex flex-col space-y-3 justify-center items-center text-white">
                     <p>As a web developer, I'm passionate about creating exceptional digital experiences that help businesses achieve their goals. I'm proficient in all aspects of web development.
 From startups to large corporations, I have the skills and knowledge to elevate any digital project. I will be glad to implement my innovative ideas, skills & creativity for accomplishing the projects.</p>
@@ -26,7 +32,7 @@ From startups to large corporations, I have the skills and knowledge to elevate 
                 <span className="text-white text-[22px]">"We cannot solve our problems with the same thinking we used when we created them. - Albert Einstein."</span>
             </div>
             <div className="text-center mt-10">
-                <button className="bg-[#de5e60] text-white px-5 py-3 rounded-md hover:bg-[#d33e41]">Get in touch</button>
+                <button className="bg-[#de5e60] text-white px-5 py-3 rounded-md hover:bg-[#d33e41]" onClick={scollDown}>Get in touch</button>
             </div>
         </div>
     )
