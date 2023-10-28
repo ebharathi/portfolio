@@ -1,6 +1,12 @@
+import {Bebas_Neue,Poppins
+} from 'next/font/google'
+const pop=Poppins({
+    subsets: ['latin'],
+    weight: '100'
+  })
 const About=()=>{
     return(
-        <div id="about-img" className="bg-[#2F3238] px-60">
+        <div id="about-img" className={`bg-[#2F3238] px-60 ${pop.className}`}>
             <div className="text-center pt-32">
                 <span className="text-[30px] font-bold text-white bottom-border">ABOUT Me</span>
             </div>
